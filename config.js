@@ -6,8 +6,8 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "losrios755@gmail.com";
-global.location = "Njombe,Tanzania.";
+global.email = "samwelmatondo74@gmail.com";
+global.location = "dodoma,Tanzania.";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
@@ -18,19 +18,19 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VagzM5RGk1Fq
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VagzM5RGk1Fq9b6BCO0q";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg";
 global.devs = "255742862266";
-global.sudo = process.env.SUDO || "255742862266";
-global.owner = process.env.OWNER_NUMBER || "255742862266";
+global.sudo = process.env.SUDO || "255782786853";
+global.owner = process.env.OWNER_NUMBER || "255782786853";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
-global.disablepm = process.env.DISABLE_PM || "false";
+global.disablepm = process.env.DISABLE_PM || "true";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
 global.userImages = process.env.USER_IMAGES || "";
 global.waPresence = process.env.WAPRESENCE || "online";
-global.readcmds = process.env.READ_COMMAND || "false";
-global.readmessage = process.env.READ_MESSAGE || "false";
+global.readcmds = process.env.READ_COMMAND || "true";
+global.readmessage = process.env.READ_MESSAGE || "true";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
@@ -51,8 +51,8 @@ module.exports = {
   caption: process.env.CAPTION || "you're using first powerful bot to be released in Tanzania| enjoy your time| this is 𝐕𝐄𝐍𝐎𝐂𝐘𝐁𝐄𝐑 𝐌𝐃",
   author: process.env.PACK_AUTHER || "VENOCYBER",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "VENOCYBER-𝐌𝐃",
-  ownername: process.env.OWNER_NAME || "VENOCYBER",
+  botname: process.env.BOT_NAME || "sammy-𝐌𝐃",
+  ownername: process.env.OWNER_NAME || "sammy",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
